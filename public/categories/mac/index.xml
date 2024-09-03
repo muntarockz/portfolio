@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MAC on Muntasir Islam</title>
+    <link>http://localhost:1313/categories/mac/</link>
+    <description>Recent content in MAC on Muntasir Islam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>muntarockz@gmail.com (Muntasir Islam)</managingEditor>
+    <webMaster>muntarockz@gmail.com (Muntasir Islam)</webMaster>
+    <copyright>Copy, _right?_ :thinking_face:🤷‍♂️</copyright>
+    <lastBuildDate>Tue, 03 Sep 2024 11:12:51 +0600</lastBuildDate><atom:link href="http://localhost:1313/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hack The MAC Address</title>
+      <link>http://localhost:1313/posts/hack-the-mac/</link>
+      <pubDate>Tue, 03 Sep 2024 11:12:51 +0600</pubDate>
+      <author>muntarockz@gmail.com (Muntasir Islam)</author>
+      <guid>http://localhost:1313/posts/hack-the-mac/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/hack-the-mac/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>
