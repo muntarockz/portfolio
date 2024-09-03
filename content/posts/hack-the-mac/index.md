@@ -1,6 +1,6 @@
 ---
 title: "Hack The MAC Address"
-date: 2022-02-03T11:12:51+06:00
+date: 2024-09-03T11:12:51+06:00
 draft: false
 tags: ["networking", "hacking", "basics"]
 categories: ["Networking"]
