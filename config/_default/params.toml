@@ -80,7 +80,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showTaxonomies = true
   showAuthorsBadges = true
   showWordCount = true
-  sharingLinks = [ "linkedin", "facebook", "email", "whatsapp", "telegram"]
+  #sharingLinks = [ "linkedin", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = true
 
 [list]
