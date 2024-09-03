@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Muntasir Islam- Portfolio"
+title = "Muntasir Islam"
 
 [params]
   displayName = "EN"
@@ -12,7 +12,7 @@ title = "Muntasir Islam- Portfolio"
   logo = "img/logo.png"
   secondaryLogo = "img/secondary-logo.png"
   description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "Copy, _right?_ :thinking_face:🤷‍♂️"
 
 [params.author]
   name = "Muntasir Islam"

@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>About Me &middot; Muntasir Islam- Portfolio</title>
-  <meta name="title" content="About Me &middot; Muntasir Islam- Portfolio" />
+  <title>About Me &middot; Muntasir Islam</title>
+  <meta name="title" content="About Me &middot; Muntasir Islam" />
   
   <meta name="description" content="My awesome website" />
   
@@ -65,7 +65,7 @@
   
   
   <meta property="og:url" content="http://localhost:1313/about/">
-  <meta property="og:site_name" content="Muntasir Islam- Portfolio">
+  <meta property="og:site_name" content="Muntasir Islam">
   <meta property="og:title" content="About Me">
   <meta property="og:description" content="My awesome website">
   <meta property="og:locale" content="en">
@@ -81,7 +81,7 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Muntasir Islam- Portfolio",
+    "articleSection": "Muntasir Islam",
     "name": "About Me",
     "headline": "About Me",
     
@@ -189,7 +189,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Muntasir Islam- Portfolio</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Muntasir Islam</a>
             
 
         </nav>
@@ -487,6 +487,7 @@
  
 
 
+
   
   
 
@@ -577,10 +578,176 @@
     
 
     
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
       
-      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
         
         
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>Hi, I&rsquo;m Muntasir Islam. I&rsquo;m from Bangladesh.</p>
+<ul>
+<li>A WordPress Developer, SEO Expert, Lead Generation Expert and Cyber Security enthusiast. with a strong passion for technology and innovation.</li>
+<li>Passionate about cybersecurity 🔐.</li>
+<li>actively seeking <strong>opportunities</strong> to both apply my skills and enhance them further.</li>
+<li>Sharpening my skills 🤹‍♂️ through challenges on  <a href="https://tryhackme.com/p/muntarockz/"title="tryhackme profile" target="_blank"><strong>THM</strong></a>🚩</li>
+<li>Planning to pursue <strong>PNPT or OSCP</strong> certification 📜 in the near future, Insha’Allah🙏</li>
+<li>Excited about possibilities in the ever-evolving field of cybersecurity 🌟</li>
+<li>checkout my <a href="/resume"title="cv"><strong>Resume</strong></a>📄</li>
+</ul>
+<p> </p>
+<p> </p>
+<p><strong>Few Interesting pages:</strong></p>
+<ul>
+<li><a href="/write-ups">Write-ups</a> on various Capture the Flag (CTF) challenges.</li>
+<li><a href="/notes">Notes</a> I compile essential study materials and insights from my journey in cybersecurity.</li>
+<li><a href="/archives">Archives</a> page to get a list of posts in reverse chronological order.</li>
+<li>You can checkout <a href="/categories">Categories</a> / <a href="/tags">tags-cloud</a> to find pages about specific keywords.</li>
+</ul>
+<p> </p>
+
+
+<h3 class="relative group">Contact 
+    <div id="contact" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#contact" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>You can reach out to me at <a href="mailto:muntarockz@gmail.com">muntarockz@gmail.com</a> 💬</p>
+<p> </p>
+
+          
+          
+          
+        </div>
+        
+        
+
+          
+            
+            
 <div class="flex author">
   
     
@@ -722,183 +889,14 @@
   </div>
 </div>
 
-      
-
-      
-
-      
-      <div class="mb-5"></div>
-      
-
-    
-
-  </header>
-  
-  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-    
-     <div
-      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
-
-         <details open id="TOCView"
-  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-<script>
-
-  var margin = 200;
-  var marginError = 50;
-
-  (function () {
-    var $window = $(window);
-    var $toc = $('#TOCView');
-    var tocHeight = $toc.height();
-
-    function onResize() {
-      var windowAndMarginHeight = $window.height() - margin;
-      if(tocHeight >= windowAndMarginHeight) {
-        $toc.css("overflow-y", "scroll")
-        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
-      } else {
-        $toc.css("overflow-y", "hidden")
-        $toc.css("max-height", "9999999px")
-      }
-    }
-
-    $window.on('resize', onResize);
-    $(document).ready(onResize);
-  })();
-
-
-
-  (function () {
-    var $toc = $('#TableOfContents');
-    if ($toc.length > 0) {
-      var $window = $(window);
-
-      function onScroll() {
-        var currentScroll = $window.scrollTop();
-        var h = $('.anchor');
-        var id = "";
-        h.each(function (i, e) {
-          e = $(e);
-          if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = decodeURIComponent(e.attr('id'));
-          }
-        });
-        var active = $toc.find('a.active');      
-        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
-
-        active.each(function (i, e) {
-           
-            $(e).removeClass('active').siblings('ul').hide();
           
-        });
-        $toc.find('a[href="#' + id + '"]').addClass('active')
-        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
-          $(e).children('a').parents('ul').show();          
-        });
-      }
-
-      $window.on('scroll', onScroll);
-      $(document).ready(function () {
-         
-          $toc.find('a').parent('li').find('ul').hide();
-        
-        onScroll();
-      });
-    }
-  })();
-
-
-</script>
-   </div>
-      </div>
-      
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-        
-
-
-        <div class="article-content max-w-prose mb-20">
-          <p>Hi, I&rsquo;m Muntasir Islam. I&rsquo;m from Bangladesh.</p>
-<ul>
-<li>A WordPress Developer, SEO Expert, Lead Generation Expert and Cyber Security enthusiast. with a strong passion for technology and innovation.</li>
-<li>Passionate about cybersecurity 🔐.</li>
-<li>actively seeking <strong>opportunities</strong> to both apply my skills and enhance them further.</li>
-<li>Sharpening my skills 🤹‍♂️ through challenges on  <a href="https://tryhackme.com/p/muntarockz/"title="tryhackme profile" target="_blank"><strong>THM</strong></a>🚩</li>
-<li>Planning to pursue <strong>PNPT or OSCP</strong> certification 📜 in the near future, Insha’Allah🙏</li>
-<li>Excited about possibilities in the ever-evolving field of cybersecurity 🌟</li>
-<li>checkout my <a href="/resume"title="cv"><strong>Resume</strong></a>📄</li>
-</ul>
-<p> </p>
-<p> </p>
-<ul>
-<li><strong>Few Interesting pages:</strong>
-<ul>
-<li><a href="/write-ups">Write-ups</a> on various Capture the Flag (CTF) challenges.</li>
-<li><a href="/notes">Notes</a> I compile essential study materials and insights from my journey in cybersecurity.</li>
-<li><a href="/archives">Archives</a> page to get a list of posts in reverse chronological order.</li>
-<li>You can checkout <a href="/categories">Categories</a> / <a href="/tags">tags-cloud</a> to find pages about specific keywords.</li>
-</ul>
-</li>
-</ul>
-<p> </p>
-
-
-<h3 class="relative group">Contact 
-    <div id="contact" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contact" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>You can reach out to me at <a href="mailto:muntarockz@gmail.com">muntarockz@gmail.com</a> 💬</p>
-<p> </p>
 
           
+
           
+          <div class="mb-10"></div>
           
-        </div>
-        
+
         
 
         
@@ -1076,7 +1074,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      Copy, <em>right?</em> :thinking_face:
+      Copy, <em>right?</em> :thinking_face:🤷‍♂️
     </p>
     
 

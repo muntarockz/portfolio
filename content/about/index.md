@@ -27,7 +27,7 @@ Hi, I'm Muntasir Islam. I'm from Bangladesh.
 
 &nbsp;
 
-- **Few Interesting pages:**
+ **Few Interesting pages:**
    - [Write-ups](/write-ups) on various Capture the Flag (CTF) challenges.
    - [Notes](/notes) I compile essential study materials and insights from my journey in cybersecurity.
    - [Archives](/archives) page to get a list of posts in reverse chronological order.
