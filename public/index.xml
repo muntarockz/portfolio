@@ -11,43 +11,13 @@
     <copyright>Copy, _right?_ :thinking_face:🤷‍♂️</copyright>
     <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/_index-copy-2/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <title>Hack The MAC Address</title>
+      <link>http://localhost:1313/posts/hack-the-mac/</link>
+      <pubDate>Thu, 03 Feb 2022 11:12:51 +0600</pubDate>
       <author>muntarockz@gmail.com (Muntasir Islam)</author>
-      <guid>http://localhost:1313/posts/_index-copy-2/</guid>
+      <guid>http://localhost:1313/posts/hack-the-mac/</guid>
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/_index-copy-3/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <author>muntarockz@gmail.com (Muntasir Islam)</author>
-      <guid>http://localhost:1313/posts/_index-copy-3/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/_index-copy-4/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <author>muntarockz@gmail.com (Muntasir Islam)</author>
-      <guid>http://localhost:1313/posts/_index-copy-4/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/_index-copy/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <author>muntarockz@gmail.com (Muntasir Islam)</author>
-      <guid>http://localhost:1313/posts/_index-copy/</guid>
-      <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/hack-the-mac/feature.jpg" />
     </item>
     
     <item>
