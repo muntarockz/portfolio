@@ -56,7 +56,7 @@
 [[main]]
  name = "Categories"
  pageRef = "categories"
- weight = 20
+ weight = 50
 
 #[[main]]
 #  name = "Tags"
