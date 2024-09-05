@@ -62,9 +62,9 @@ Here is a summary of my professional work experience, highlighting key roles and
 *Duration*: Feb 2024 - Present  
 *Location*: Remote  
 *Responsibilities*:
-- 
-- 
-- 
+- Conduct in-depth technical SEO audits(using ahrefs, SEMrush, many more tools) to identify website issues and areas for improvement.
+- Implement technical SEO best practices, including website structure optimization, schema markup implementation, mobile-friendliness enhancements, and robots.txt and XML sitemap management.
+- Stay updated on the latest search engine algorithms and technical SEO trends, ensuring our clients benefit from the most effective strategies.
 
 ---
 
