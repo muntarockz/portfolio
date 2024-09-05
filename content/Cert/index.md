@@ -4,7 +4,7 @@ Here’s a list of certifications I’ve earned, showcasing my skills and dedica
 
 ---
 
-### 1. **CompTIA Pentest+ **  
+### 1. **CompTIA Pentest+**   
 *Issued by*: TryHackMe  
 *Date*: Sept 2024  
 *Credential ID*: THM-VQYQUSYN8R  
@@ -18,7 +18,7 @@ Here’s a list of certifications I’ve earned, showcasing my skills and dedica
 
 ---
 
-### 2. **Jr Penetration Tester **  
+### 2. **Jr Penetration Tester** 
 *Issued by*: TryHackMe  
 *Date*: August 2024  
 *Credential ID*: THM-5JHFZMQE90  
@@ -28,7 +28,7 @@ Here’s a list of certifications I’ve earned, showcasing my skills and dedica
 
 ---
 
-### 3. **Red Teaming **  
+### 3. **Red Teaming**  
 *Issued by*: TryHackMe  
 *Date*: September 2024  
 *Credential ID*: THM-D94AYW6QXX  
@@ -39,7 +39,7 @@ After completing this pathway, you will have the advanced skills needed to pursu
 
 ---
 
-### 4. **Web Fundamentals **  
+### 4. **Web Fundamentals**  
 *Issued by*: TryHackMe 
 *Date*: Sept 2024  
 *Credential ID*: THM-DLXOHWEGAO  
@@ -58,7 +58,7 @@ Here is a summary of my professional work experience, highlighting key roles and
 
 ---
 
-### **Operations Manager - eShikhon Academy **  
+### **Operations Manager - eShikhon Academy**  
 *Duration*: Feb 2024 - Present  
 *Location*: Remote  
 *Responsibilities*:
@@ -68,7 +68,7 @@ Here is a summary of my professional work experience, highlighting key roles and
 
 ---
 
-### **Technical SEO Expert - SEOs Hut **  
+### **Technical SEO Expert - SEOs Hut**  
 *Duration*: Mar 2024 - May 2024  
 *Location*: Remote  
 *Responsibilities*:
@@ -80,7 +80,7 @@ Here is a summary of my professional work experience, highlighting key roles and
 
 ---
 
-### **Head of Tech - Proshanti.online **  
+### **Head of Tech - Proshanti.online**  
 *Duration*: Nov 2023 - Present 
 *Location*: Remote  
 *Responsibilities*:
