@@ -58,7 +58,7 @@ Here is a summary of my professional work experience, highlighting key roles and
 
 ---
 
-### Operations Manager - eShikhon Academy
+### Operations Manager-eShikhon Academy
 *Duration*: Feb 2024 - Present  
 *Location*: Remote  
 *Responsibilities*:
