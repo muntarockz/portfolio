@@ -68,7 +68,7 @@ Here is a summary of my professional work experience, highlighting key roles and
 
 ---
 
-### Technical SEO Expert - SEOs Hut  
+### Technical SEO Expert - SEOs Hut
 *Duration*: Mar 2024 - May 2024  
 *Location*: Remote  
 *Responsibilities*:

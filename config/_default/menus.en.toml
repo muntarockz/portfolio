@@ -21,20 +21,35 @@
  weight = 5
 
 [[main]]
+ name = "Services"
+ pageRef = "/Services"
+ weight = 10
+
+
+[[main]]
+ name = "Portfolio"
+ pageRef = "/Portfolio"
+ weight = 15
+
+[[main]]
  name = "Blog"
  pageRef = "/posts"
- weight = 10
+ weight = 20
+
+ [[main]]
+ name = "Case Study"
+ pageRef = "/case-study"
+ weight = 25
 
 [[main]]
  name = "Cert"
  pageRef= "/Cert"
- weight = 20
+ weight = 30
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+ name = "Contact"
+ pageRef = "/Contact"
+ weight = 35
 
 #[[main]]
 #  name = "example sub-menu 2"
@@ -53,10 +68,10 @@
 #  pageRef = "categories/awesome"
 #  weight = 20
 
-[[main]]
- name = "Categories"
- pageRef = "categories"
- weight = 50
+#[[main]]
+# name = "Categories"
+# pageRef = "categories"
+# weight = 50
 
 #[[main]]
 #  name = "Tags"
