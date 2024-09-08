@@ -1,3 +1,17 @@
+---
+title: "Portfolio"
+draft: false
+searchHidden: false
+ShowToc: true
+ShowReadingTime: true
+disableHLJS: true
+robotsNoIndex: true
+hideMeta: true
+ShowBreadCrumbs: false
+# edit_post: false
+# weight: 1
+---
+
 # Muntasir Islam's Portfolio
 
 Welcome to my portfolio! Here you'll find a showcase of my work in **SEO**, **WordPress Design**, and **Digital Marketing**. Each project highlights the skills, tools, and strategies I've used to deliver results for my clients.
