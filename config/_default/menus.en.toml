@@ -87,3 +87,8 @@
   name = "Categories"
   pageRef = "categories"
   weight = 20
+
+[[footer]]
+  name = "Resources"
+  pageRef = "/resources"
+  weight = 30
