@@ -6,4 +6,6 @@ tags: ["robotics", "STM32", "Development Board"]
 categories: ["Robotics"]
     
 ---
-![STM32 PinOut](/content/posts/all-about-stm32/STM32pinout.jpg "STM32 PinOut")
+![STM32 PinOut][STM32]
+
+[STM32]: /content/posts/all-about-stm32/STM32pinout.jpg "STM32 PinOut"
